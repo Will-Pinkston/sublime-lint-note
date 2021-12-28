@@ -1,0 +1,21 @@
+[
+	{ "keys": ["ctrl+l","ctrl+n"], "command": "lint_new_note" },
+	
+	{ "keys": ["ctrl+l","ctrl+d"], "command": "lint_insert_date" },
+	{ "keys": ["ctrl+l","shift+ctrl+d"], "command": "lint_insert_date", "args": {"asHeading": true} },
+
+	{ "keys": ["ctrl+l","ctrl+h"], "command": "lint_insert_heading" },
+
+	// i want this to have the ctrl+{double press l} hotkey, but that doesn't seem to be working
+	{ "keys": ["ctrl+l","ctrl+o"], "command": "lint_focus_open_note" },
+
+	{ "keys": ["ctrl+l","ctrl+c"], "command": "lint_fancy_copy", "args": {"command": ":{line_number} {line_content}"} },
+	{ "keys": ["ctrl+l","ctrl+shift+c"], "command": "lint_terse_copy_prompt" }
+
+	// { "keys": ["<character>"], "command": "lint_terse_copy_input",
+	// 	"context": [{"key": "last_command", "operand"}] },
+
+	// { "keys": ["ctrl+c"], "command": "lint_terse_copy_end",
+	// 	"context": [{"key": "last_command", "operand": "lint_terse_copy_start"}] }
+
+]

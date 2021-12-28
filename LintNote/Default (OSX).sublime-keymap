@@ -1,0 +1,5 @@
+[
+	{ "keys": ["super+l","super+n"], "command": "lint_new_note" },
+	{ "keys": ["super+l","super+d"], "command": "lint_insert_date" },
+	// { "keys": ["super+s"], "command": "lint_save_wrapper" }
+]
